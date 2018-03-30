@@ -1,0 +1,45 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --color --profile --progress --config config/webpack.dev.js",
+    "build": "cross-env NODE_ENV=production webpack --color --profile --progress --config config/webpack.build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.3.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-lazyload": "^2.3.0",
+    "react-router-dom": "^4.2.2",
+    "swiper": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.10",
+    "html-webpack-plugin": "^3.0.6",
+    "jsonwebtoken": "^8.2.0",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.8.3",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "sass-loader": "^6.0.7",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "3.11.0",
+    "webpack-dev-server": "2.11.1"
+  }
+}

@@ -1,0 +1,49 @@
+#register-box{
+    .register-header{
+        height: 1rem;
+        position: relative;
+        background: #fafafb;
+        text-align: center;
+        line-height:1rem;
+        h3{
+            display: inline-block;
+            font-size: .32rem;
+            font-weight: normal;
+        }
+        span{
+            position: absolute;
+            font-size: .3rem;
+        }
+        span:nth-child(1){
+            left:.2rem;
+        }
+        span:nth-child(3){
+            right:.2rem;
+        }
+    }
+    .register-content{
+        margin-top:.2rem;
+        background: #f4f4f4;
+        padding: 1rem 0;
+        p{
+            line-height: 1rem;
+            text-align: center;
+            label{
+                font-size: .4rem;
+            }
+            input{
+                width: 40%;
+                height: .5rem;
+            }
+            .button{
+                width: 60%;
+                padding: .05rem 0;
+                background: #fc4141;
+                color:#fff;
+                border-radius: .2rem;
+                border:none;
+                font-size: .3rem;
+            }
+        }
+    }
+}

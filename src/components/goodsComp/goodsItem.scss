@@ -1,0 +1,28 @@
+.goods-item{
+    float:left;
+    width: 50%;
+    line-height: .4rem;
+    dt{
+        height: 3.2rem;
+        overflow: hidden;
+    }
+    img{
+        width: 100%;
+    }
+    &:nth-of-type(2n+1){
+        border-right: 2px solid #eee;
+    }
+    box-sizing: border-box;
+    border-bottom: 2px solid #eee;
+    dd{
+        padding: 0 .1rem;
+        p{
+            display: flex;
+            justify-content: space-between;
+            .iconfont{
+                padding-right: .1rem;
+                color:#666;
+            }
+        }
+    }
+}

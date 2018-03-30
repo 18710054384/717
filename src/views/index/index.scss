@@ -1,0 +1,36 @@
+ #index{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    .content{
+        flex:1;
+        overflow-y: scroll;
+    }
+    .nav{
+        height:1rem;
+        display: flex;
+        text-align: center;
+        border-top:1px solid #eee;
+        li{
+            flex:1;
+            a{
+                display: flex;
+                flex-direction: column;
+                color:#666;
+                span{
+                    font-size: .26rem;
+                }
+                .iconfont{
+                    font-size: .4rem;
+                }
+            }
+        }
+        .tab-active{
+            color:red;
+        }
+    }
+} 
